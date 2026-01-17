@@ -1,0 +1,160 @@
+Question,Response,Test Response,Logic_Score
+"Un patient de 60 ans se présente pour une coloscopie en raison de saignements rectaux et de changements dans ses habitudes intestinales. Avant la procédure, un lavage intestinal complet est nécessaire. Quel est le rôle principal de cette préparation intestinale avant la coloscopie ?","La préparation intestinale est cruciale avant une coloscopie car elle assure une meilleure visibilité lors de l'examen. Un intestin propre permet au médecin de détecter plus facilement les anomalies telles que les polypes ou les tumeurs, ce qui améliore la précision du diagnostic et l'efficacité de la procédure.","Raisonnement étape par étape :
+1. Objectif de la coloscopie : visualiser la muqueuse colique pour détecter lésions (polypes, tumeurs, inflammations, hémorragies) et éventuellement réaliser des biopsies ou des polypectomies.
+2. Obstacles à la visualisation : selles résiduelles, débris et liquide dans le côlon masquent la muqueuse, cachent de petites lésions et augmentent le risque de procédure incomplète.
+3. Conséquences d’une préparation insuffisante : diminution de la sensibilité diagnostique (lésions manquées), allongement du temps d’examen, nécessité de répéter la coloscopie, augmentation du risque de complications (perforation, mésinterprétation).
+4. Rôle de la préparation intestinale : nettoyer complètement le côlon en évacuant selles et débris afin d’offrir une vue claire de la muqueuse colique.
+5. Bénéfices cliniques : amélioration de la détection des lésions (polypes, cancers), facilitation des gestes thérapeutiques (exérèse de polypes), réduction du besoin de refaire l’examen, sécurité et efficacité accrues.
+
+Réponse concise :
+Le rôle principal de la préparation intestinale est d’évacuer complètement les selles et débris du côlon pour permettre une visualisation claire de la muqueuse durant la coloscopie, optimisant la détection diagnostique et la sécurité de l’intervention.",True
+"Une patiente de 50 ans, qui doit subir une coloscopie, a été prescrite un médicament laxatif pour nettoyer son intestin. Quels conseils lui donneriez-vous concernant l'hydratation après la prise de ce médicament afin d'assurer une préparation adéquate pour la coloscopie?","Il est essentiel que la patiente consomme une grande quantité d'eau après la prise du médicament laxatif. Cela aide à prévenir la déshydratation, facilite l'élimination des selles et permet une préparation adéquate des intestins pour la coloscopie, garantissant ainsi des résultats d'examen optimaux.","Conseils généraux à donner à une patiente de 50 ans sur l’hydratation après la prise d’un laxatif de préparation colique (par ex. solution de lavage, polyéthylène glycol, sulfate de sodium, ou prélaxatifs osmotiques):
+
+1. Objectif principal
+- Remplacer les pertes liquidiennes et électrolytiques induites par le laxatif pour éviter déshydratation, vertiges, hypotension orthostatique et altération des analyses. Une hydratation adéquate améliore aussi l’efficacité du nettoyage colique.
+
+2. Quand boire
+- Commencer à boire des liquides clairs dès le début du protocole de préparation, selon les instructions reçues.
+- Continuer à boire régulièrement pendant toute la période où le laxatif provoque diarrhée (souvent jusqu’à 2–4 heures avant l’examen, sauf indication contraire).
+- Respecter la consigne du jeûne préalable: habituellement, arrêter de boire liquides clairs 2–3 heures avant l’heure prévue de la coloscopie (suivre la prescription de l’équipe endoscopique).
+
+3. Que boire
+- Liquides clairs : eau, bouillon clair, eau de riz filtrée, jus de pomme clair, boissons pour sportifs claires, thé ou café sans lait, gelée sans fruits. Éviter liquides rouges ou violets qui peuvent confondre l’endoscopiste.
+- Préférer boissons contenant électrolytes (solutions pour sportifs diluées, solution de réhydratation orale) si la diarrhée est abondante ou si la patiente a des facteurs de risque (âge >65, cardiopathie, insuffisance rénale, prise de diurétiques).
+- Éviter boissons très sucrées en excès, boissons lactées, alcool, jus sanguins opaques, et tout ce qui contient pulpe ou colorants interdits.
+
+4. Volume
+- Boire abondamment et régulièrement : au minimum 1,5–2 litres de liquides clairs le jour de la préparation en plus de la solution laxative, sauf contre-indication. Si la diarrhée est importante, augmenter la quantité et privilégier boissons riches en électrolytes.
+- Adapter le volume selon poids, tolérance et comorbidités (insuffisance cardiaque ou rénale : limiter et coordonner avec le médecin).
+
+5. Signes d’alerte à surveiller
+- Vertiges, faiblesse, bouche très sèche, diminution importante de la diurèse, confusion, palpitations, œdème ou prise de poids soudaine — consulter ou contacter le centre de coloscopie.
+- Si la patiente prend des médicaments qui affectent l’équilibre hydro-électrolytique (diurétiques, IEC/ARA2, digitaliques), informer le prescripteur ; des ajustements peuvent être nécessaires.
+
+6. Conseils pratiques
+- Boire de petites quantités régulières (ex. 150–250 ml toutes les 15–30 minutes) plutôt que beaucoup d’un coup si nausées.
+- Garder une bouteille d’eau à portée de main pendant la préparation.
+- Si vomissements empêchent l’hydratation, contacter l’équipe médicale.
+- Respecter la consigne sur l’arrêt des liquides avant l’examen (ne pas boire après la période autorisée).
+
+7. Points particuliers selon l’état de santé
+- Femme de 50 ans sans comorbidités : suivre les recommandations ci‑dessus.
+- Si hypertendue, insuffisance rénale, maladie cardiaque, ou prise de diurétiques : avis médical avant d’ingérer grandes quantités d’électrolytes/solutés; préférence pour solutions iso‑osmolaires et surveillance.
+
+En résumé : boire régulièrement des liquides clairs et, si diarrhée importante ou facteurs de risque, préférer des boissons contenant des électrolytes; éviter les liquides colorés interdits; arrêter de boire selon la fenêtre autorisée avant l’examen; et contacter l’équipe en cas de symptômes de déshydratation ou de vomissements.",True
+"Un homme de 45 ans se présente à l'hôpital avec des nausées et des vomissements trois heures après avoir pris une préparation osmotique pour une coloscopie. Il se plaint également d'une sensation de soif intense et présente une peau sèche et une tachycardie lors de l'examen physique. Compte tenu de ces symptômes, quel est le principal effet secondaire que ce patient pourrait ressentir suite à la prise de cette préparation?","Le principal effet secondaire que ce patient pourrait ressentir est la déshydratation. Cela est dû au fait que les préparations osmotiques utilisées pour la coloscopie augmentent la perte de fluides par le bol alimentaire et peuvent provoquer des vomissements, menant à une perte de liquides corporels et à des signes de déshydratation tels que soif, peau sèche et tachycardie.","La préparation osm otique pour coloscopie est typiquement une solution riche en électrolytes/osmoles (p. ex. PEG ou solution à base de sulfate de magnésium, sulfate de sodium, sel de citrate) qui entraîne une diarrhée osmotique et une perte liquidienne importante. Trois heures après la prise, les signes de soif, peau sèche et tachycardie évoquent une déshydratation intravasculaire aiguë. Le principal effet indésirable attendu est donc une déshydratation (avec risque d'hypovolémie) pouvant provoquer une hypotension, une tachycardie, des vertiges et, chez les sujets vulnérables, une insuffisance rénale aiguë prérénale et des désordres électrolytiques (hyponatrémie ou hypernatrémie selon la préparation et consommation d'eau). En résumé : déshydratation/hypovolémie aiguë (avec risque secondaire d'insuffisance rénale prérénale et déséquilibre électrolytique).",True
+"Un patient de 70 ans se présente pour une coloscopie et, en consultation préanesthésique, semble anxieux et mutique. Le médecin lui explique l'importance d'avoir un conducteur pour le retour à la maison après la procédure. Quelle est la raison principale pour laquelle la présence d'un conducteur est cruciale après cette intervention ?","La raison principale pour laquelle un conducteur est crucial après une coloscopie est que le patient peut éprouver de la fatigue et des effets résiduels de la sédation, ce qui peut altérer ses capacités à conduire en toute sécurité. La présence d'un conducteur aide à garantir son bien-être durant le retour et prévient les accidents potentiels.","Raisonnement pas à pas :
+1. La coloscopie est une procédure qui se fait le plus souvent sous sédation (sédation consciente ou parfois sédation profonde/analgésie IV) ou, plus rarement, sous anesthésie générale légère.  
+2. Les agents sédatifs et/ou analgésiques (benzodiazépines, propofol, opioïdes) ont des effets résiduels après la fin de la procédure : altération de la vigilance, du temps de réaction, des fonctions motrices et de la coordination, et altération du jugement.  
+3. Ces effets persistent même si le patient paraît somnolent ou partiellement réveillé ; la capacité à conduire un véhicule en sécurité est diminuée pour plusieurs heures.  
+4. De plus, après une coloscopie, il peut exister des complications rares mais possibles (épisodes vagaux, saignement, douleur, vertiges) qui nécessitent une aide immédiate.  
+5. Pour ces raisons de sécurité — réduction des capacités de conduite et risque de complications post-procédure — il est recommandé qu’un accompagnant responsable ramène le patient à domicile.
+
+Réponse concise : Parce que la sédation utilisée pendant la coloscopie entraîne une altération transitoire de la vigilance et des capacités motrices/jugement, rendant la conduite dangereuse ; un accompagnant est donc nécessaire pour assurer un retour à domicile en toute sécurité et intervenir en cas de complication.",True
+Un patient doit subir une coloscopie et a reçu une feuille de préparation à lire et à cocher avant la procédure. Pourquoi est-il crucial pour le patient de suivre cette démarche en cochant chaque case de la feuille?,"La raison principale pour laquelle les patients doivent cocher chaque case de la feuille de préparation est de s'assurer que toutes les instructions ont été comprises et suivies. Cela est essentiel pour garantir que le processus de nettoyage intestinal est adéquat, ce qui contribue à la sécurité et à l'efficacité de la coloscopie, permettant ainsi un examen complet et fiable.","Il est crucial pour le patient de lire et de cocher chaque case de la feuille de préparation avant une coloscopie pour plusieurs raisons médicales, logistiques et légales. Raisonnement étape par étape :
+
+1. Sécurité médicale
+- La préparation intestinale (régime, laxatifs, jeûne) permet d’avoir un colon propre : sans résidus solides, le médecin peut visualiser correctement la muqueuse et détecter polypes, tumeurs ou inflammations. Une préparation insuffisante réduit la sensibilité de l’examen et augmente le risque de faux négatifs.
+- Certaines instructions concernent l’arrêt ou l’ajustement de médicaments (anticoagulants, antiplaquettaires, antidiabétiques, suppléments de fer, etc.). Respecter ces consignes minimise le risque de saignement, d’hypoglycémie ou d’interactions médicamenteuses pendant et après la procédure.
+- Les allergies, antécédents de complications anesthésiques ou maladies (cardiaques, rénales) doivent être signalés : cela permet à l’équipe d’adapter la sédation et les précautions.
+
+2. Réussite de l’examen et durée
+- Une préparation correcte augmente la probabilité que la coloscopie soit complète et ne nécessite pas d’être répétée. Une mauvaise préparation peut conduire à une annulation ou à une coloscopie incomplète, obligeant une nouvelle procédure avec nouveau risque et coût.
+
+3. Réduction des complications
+- Respecter les consignes sur l’alimentation et l’hydratation, ainsi que sur la prise de certains médicaments, réduit le risque de déshydratation, de perturbations électrolytiques et d’autres complications liées aux laxatifs ou à l’anesthésie.
+
+4. Consignes pratiques et logistiques
+- La feuille précise souvent l’heure d’arrivée, le jeûne pré-anesthésique, la nécessité d’être accompagné pour le retour à domicile, et les contacts en cas de problème. Cocher les cases montre que le patient a compris ces aspects et permet au service de vérifier la conformité.
+
+5. Aspects juridiques et consentement
+- La signature/cochage atteste que le patient a été informé des risques, des alternatives et des instructions pré-opératoires. Cela protège le patient (en garantissant l’information) et l’équipe médicale (preuve d’information et de consentement).
+
+6. Communication claire avec l’équipe médicale
+- Les cases peuvent inclure des informations sur des points précis (prise d’antibiotiques, test COVID, port d’un pacemaker, etc.). Remplir la feuille aide l’équipe à adapter le geste et la surveillance.
+
+En résumé : cocher chaque case signifie que le patient a lu, compris et suivi les instructions indispensables pour maximiser la sécurité, l’efficacité et la fiabilité de la coloscopie, et pour éviter annulation, complications ou répétition inutile de l’examen. Ne pas le faire peut compromettre la qualité de l’examen et augmenter les risques.",True
+Un patient de 60 ans se présente pour une coloscopie planifiée. Il a été informé qu'il devait venir avec un conducteur pour le ramener chez lui après la procédure. Pourquoi cette mesure de sécurité est-elle importante pour ce patient qui va subir une sédation consciente durant l'examen?,"Cette mesure de sécurité est cruciale car le patient sera sous sédation consciente, ce qui peut altérer ses réflexes et sa capacité à conduire en toute sécurité après la procédure. Avoir un conducteur garantit qu'il ne mettra pas en danger sa propre sécurité ni celle des autres sur la route.","Raisonnement pas à pas :
+1. Lors d'une coloscopie avec sédation consciente, on administre généralement des médicaments sédatifs (benzodiazépines comme le midazolam, opioïdes comme le fentanyl, ou parfois propofol en doses contrôlées) pour diminuer l'anxiété, la douleur et les mouvements du patient.
+2. Ces agents ont des effets prolongés sur le système nerveux central : altération de la vigilance, de la coordination motrice, du jugement, des réflexes et du temps de réaction. Chez une personne de 60 ans, la sensibilité aux sédatifs est souvent augmentée et l'élimination peut être plus lente (diminution de la clairance hépatique/ rénale et changement de la composition corporelle).
+3. Immédiatement après l'examen et pendant plusieurs heures (parfois 12–24 h selon l'agent et la dose), le patient peut rester somnolent, désorienté, vertigineux, ou présenter une vision floue et une coordination diminuée, ce qui augmente le risque d'accident (chutes, erreurs de conduite).
+4. La conduite automobile demande vigilance rapide, prise de décisions et coordination. Ces fonctions peuvent être compromises même si le patient se sent « réveillé ». Des études montrent que la capacité de conduire reste diminuée plusieurs heures après une sédation légère à modérée.
+5. En outre, il existe un petit risque d'effets indésirables retardés (dépression respiratoire, hypotension, réactions paradoxales) qui peuvent survenir après le retour à domicile; la présence d'un accompagnateur permet d'évaluer et d'intervenir si nécessaire ou d'appeler les secours.
+6. Pour ces raisons de sécurité (prévention d'accidents routiers et surveillance en cas d'effets indésirables), il est recommandé qu'un conducteur responsable accompagne et raccompagne le patient après une coloscopie sous sédation. Souvent on conseille aussi de ne pas prendre de décisions importantes, de ne pas consommer d'alcool ni de piloter de machines pendant 24 heures.
+
+Réponse concise :
+La sédation altère temporairement vigilance, jugement et coordination, surtout chez les personnes âgées; cela augmente le risque d’accident si le patient conduit. Un conducteur est donc nécessaire pour assurer un retour sûr et pour surveiller tout effet indésirable après la procédure.",True
+Un patient a récemment subi une coloscopie et a reçu des instructions pour retirer une prescription de médicaments avant la date de la procédure. Quel est l'objectif principal de cette recommandation et comment cela peut-il influencer le traitement post-coloscopie?,"L'objectif principal de la recommandation de retirer la prescription est d'éviter tout retard dans le traitement post-coloscopie. Si le patient prend des médicaments qui pourraient interférer avec les résultats de la coloscopie ou la récupération, cela pourrait entraîner des complications ou des retards dans les soins nécessaires après la procédure.","Raisonnement étape par étape :
+1. But de la coloscopie : visualiser la muqueuse colique, détecter polypes, inflammations, saignements ou tumeurs. Une bonne préparation et connaissance des médicaments du patient sont essentielles pour sécurité et interprétation correcte.
+2. Pourquoi demander d’arrêter certains médicaments avant la procédure :
+   - Réduire le risque hémorragique : anticoagulants (warfarine, apixaban, rivaroxaban, dabigatran), antiagrégants (aspirine, clopidogrel) augmentent le risque de saignement, surtout si une polypectomie ou biopsie est réalisée. Arrêter ou ajuster ces médicaments diminue ce risque.
+   - Éviter interactions anesthésiques ou sédatifs : certains sédatifs, hypoglycémiants, ou médicaments cardiovasculaires peuvent nécessiter ajustement pour la sédation et la surveillance per-procédure.
+   - Améliorer la préparation colique : certains laxatifs ou médicaments ralentissant le transit (opiacés, anticholinergiques) peuvent altérer la qualité du lavement intestinal.
+   - Sécurité liée à comorbidités : par ex. les hypoglycémiants oraux/insuline devront être adaptés pendant le jeûne pré-procédure.
+3. Influence sur la conduite de la procédure : si le risque de saignement est réduit, l’endoscopiste sera plus susceptible d’enlever des polypes et de faire des biopsies sans délai. À l’inverse, si un médicament à haut risque ne peut être interrompu, l’équipe peut choisir de ne pas réaliser d’actes invasifs ou de programmer une stratégie différente.
+4. Impact post-coloscopie sur le traitement :
+   - Reprise des médicaments : les anticoagulants/antiagrégants sont généralement réintroduits après la procédure selon le contrôle du saignement et la nature de l’acte (immédiatement si pas d’acte hémorragique, ou différé 24–72+ heures si hémostase nécessaire). La décision tient compte du risque thrombotique du patient (ex. valve mécanique, fibrillation atriale) versus risque de saignement.
+   - Nécessité d’un plan individualisé : le prescripteur doit planifier la durée d’arrêt et la reprise avant la procédure, et documenter les instructions post-procédure (anticoagulation relais, surveillance des signes de saignement).
+   - Surveillance accrue : si interruption d’un médicament expose à un risque (thrombotique, hyperglycémie, hypertension), des mesures temporaires (héparine à bas poids moléculaire en relais, ajustement des hypoglycémiants) peuvent être mises en place.
+Conclusion synthétique :
+L’objectif principal d’arrêter certains médicaments avant une coloscopie est de diminuer le risque de complications (surtout le saignement) et d’assurer une procédure sûre et diagnostiquement utile. Cela influe sur le traitement post-coloscopie en nécessitant un plan clair pour la reprise des médicaments et, si besoin, des mesures transitoires (relais anticoagulant, surveillance) pour équilibrer le risque hémorragique et le risque thrombotique ou métabolique du patient.",True
+"Une femme de 28 ans se présente avec des démangeaisons intenses et des douleurs lors des rapports sexuels. À l'examen physique, on note des lésions vésiculaires douloureuses sur les parties génitales. En vous basant sur ces symptômes, quelle est la condition sous-jacente la plus probable et pourquoi?","Le diagnostic le plus probable est une infection par le virus de l'herpès génital. Cette infection se manifeste souvent par des vésicules douloureuses et des démangeaisons dans la région génitale, surtout après une période de stress ou des rapports sexuels. L'herpès génital est connu pour causer ces symptômes caractéristiques.","Diagnostic le plus probable : infection herpétique génitale (herpès génital), due au virus Herpes simplex (généralement HSV-2, parfois HSV-1).
+
+Raisonnement pas à pas :
+1. Démangeaisons intenses et douleur lors des rapports sexuels (dyspareunie) indiquent une atteinte génitale inflammatoire ou infectieuse impliquant muqueuses et peau sensibles.
+2. L’examen montre des lésions vésiculaires douloureuses localisées sur les organes génitaux. Les vésicules génitales douloureuses sont typiques de l’herpès génital ; elles peuvent évoluer en ulcérations superficielles et être très douloureuses.
+3. Les autres causes de lésions génitales doivent être considérées mais sont moins compatibles :
+   - Syphilis primaire : ulcère indolore (chancre), peu de vésicules douloureuses — donc moins probable.
+   - Chancroïde (Haemophilus ducreyi) : ulcères douloureux mais rarement précédés par des vésicules typiques.
+   - Molluscum contagiosum : papules ombiliquées indolores, pas de vésicules douloureuses.
+   - Infection à HPV : condylomes (excroissances), non douloureux et pas de vésicules.
+   - Vulvovaginite mycosique ou autre dermatose : peut provoquer prurit mais pas typiquement des vésicules douloureuses localisées.
+4. L’âge jeune et le tableau aigu avec douleur et vésicules orientent fortement vers HSV. Un antécédent d’épisodes récurrents de vésicules génitales renforcerait ce diagnostic (récurrence due au caractère latent du virus dans les ganglions sensitifs).
+
+Conclusion : herpès génital (probablement HSV-2) est la cause la plus probable en raison de la présence de vésicules génitales douloureuses associées à prurit et douleur sexuelle. Pour confirmation : prélèvement par PCR ou culture des lésions, ou sérologie antivirale selon la phase; prise en charge par antiviraux (aciclovir, valaciclovir) et conseils sur prévention de la transmission.",True
+"Un homme de 35 ans récemment diagnostiqué avec le VIH consulte pour obtenir des informations sur les modes de transmission du virus. Il s'inquiète de la façon dont l'infection peut se propager et souhaite comprendre les risques associés à différentes activités. En tenant compte des modes connus de transmission, pouvez-vous expliquer comment le VIH peut être transmis dans les contextes sexuels et autres?","Le VIH se transmet principalement par contact sexuel non protégé, où le virus présent dans les fluides corporels (comme le sperme ou les sécrétions vaginales) pénètre dans le corps d’un partenaire. D'autres modes de transmission incluent le partage de seringues et les transfusions sanguines, mais le contact sexuel reste le mode le plus courant.","Résumé des étapes de raisonnement (bref)
+- Identifier les principaux modes biologiques de transmission: contacts qui permettent le passage du virus via liquides corporels contenant du VIH (sang, sperme, sécrétions vaginales/rectales, lait maternel) ou exposition d'une muqueuse/peau lésée à ces liquides.
+- Expliquer les situations à risque élevé, modéré ou faible en contexte sexuel et non sexuel.
+- Rassurer sur ce qui ne transmet pas le VIH et donner conseils de prévention.
+
+Réponse (en français)
+
+Modes de transmission du VIH — principes généraux
+- Le VIH se transmet lorsque des quantités suffisantes de virus présentes dans certains liquides corporels d’une personne infectée (sang, sperme, secrétions vaginales, fluides rectaux, lait maternel) atteignent la circulation d’une autre personne ou entrent en contact avec une muqueuse (bouche, vagin, rectum, pénis) ou une peau lésée.
+- Le virus n’est pas transmis par la sueur, les larmes, l’urine en l’absence de sang visible, ni par des contacts sociaux courants (poignée de main, embrassades, partage de vaisselle, moustiques, etc.).
+
+Transmission en contexte sexuel
+- Rapports sexuels anaux (receptif et insertif) : risque élevé surtout pour la personne réceptrice (réceptif anal) parce que la muqueuse rectale est fragile et facilement lésée; le risque par acte est le plus élevé parmi les actes sexuels non protégés.
+- Rapports sexuels vaginaux : risque significatif pour les deux partenaires; la femme réceptrice est généralement plus à risque que l’homme lors d’un rapport vaginal non protégé.
+- Rapports oraux : risque généralement faible mais existe dans certaines situations (éjaculation orale dans la bouche, présence de plaies/gencives saignantes, infections génitales concomitantes). Le risque est beaucoup plus faible que pour le sexe anal ou vaginal.
+- Facteurs augmentant le risque sexuel : absence de préservatif, charge virale élevée chez la personne infectée (notamment si pas sous traitement antirétroviral), présence d’autres infections sexuellement transmissibles (ulcératives ou inflammatoires), traumatisme/microdéchirures lors du rapport.
+
+Transmission non sexuelle ou par voie sanguine
+- Partage de seringues, aiguilles ou matériel d’injection (toxicomanie injectable, tatouage/piercing non stériles) : risque élevé si le matériel est contaminé par du sang.
+- Transfusions sanguines ou produits sanguins non contrôlés : risque élevé si le sang n’a pas été dépisté (dans les pays avec don et dépistage modernes, ce risque est négligeable).
+- Exposition professionnelle (soignants) : piqûre d’aiguille ou contact du sang d’un patient avec une plaie ou muqueuse peut transmettre le virus; le risque est faible mais réel et il existe des protocoles de prophylaxie post-exposition (PPE).
+- Transmission mère-enfant : possible pendant la grossesse, l'accouchement et l'allaitement. Le traitement antirétroviral de la mère et mesures adaptées réduisent fortement ce risque.
+
+Ce qui ne transmet pas le VIH
+- Bisous sur la bouche, serrer la main, câlins, partage d’ustensiles, douches, toilettes, baisers légers, piqûres d’insectes (moustiques), nages dans la même piscine — ces contacts ne transmettent pas le VIH.
+
+Prévention (points pratiques)
+- Préservatif latex ou polyuréthane correctement utilisé à chaque rapport sexuel réduit fortement le risque.
+- Traitement antirétroviral (TAR) efficace pour la personne séropositive qui supprime la charge virale à un niveau indétectable élimine pratiquement le risque de transmission sexuelle (U=U : indétectable = intransmissible).
+- Prophylaxie pré-exposition (PrEP) pour personnes séronégatives à risque élevé.
+- Ne pas partager aiguilles, utiliser matériel stérile pour injection/tatouage.
+- Prévention post-exposition (PPE) après exposition à risque aiguë : consulter d’urgence pour évaluation et mise en route possible d’un traitement prophylactique.
+- Dépistage et traitement des autres IST, soins prénataux et traitement antirétroviral chez la femme enceinte pour prévenir la transmission mère-enfant.
+
+Si vous le souhaitez, je peux :
+- Expliquer le risque chiffré par acte pour différents types de rapports.
+- Décrire les signes d’exposition nécessitant une consultation d’urgence pour prophylaxie post-ex",True
+"Une patiente de 45 ans se présente avec des douleurs abdominales intenses et des écoulements vaginaux inhabituels. Elle mentionne également des rapports sexuels non protégés récents. Après plusieurs tests diagnostiques, le médecin lui révèle qu'elle souffre de blennorragie. Quel est l'agent pathogène responsable de cette infection, et pourquoi est-il classé ainsi?","L'agent pathogène responsable de la blennorragie est une bactérie, spécifiquement Neisseria gonorrhoeae. Cette infection sexuellement transmissible est causée par cette bactérie qui infecte les muqueuses du tractus génital. Sa classification en tant qu'infection bactérienne est due à l'absence d'éléments viraux, fongiques ou parasitaires dans son étiologie.","L'agent pathogène responsable de la blennorragie (également appelée gonorrhée) est Neisseria gonorrhoeae. 
+
+Pourquoi il est classé ainsi :
+- Neisseria gonorrhoeae est une bactérie Gram-négative : à la coloration de Gram elle apparaît en rose/rouge et possède une membrane externe caractéristique des Gram-négatifs.  
+- Elle appartient au genre Neisseria, ce sont des diplocoques (cocci en paires) souvent en forme de grains de café.  
+- C'est un pathogène strictement humain, responsable d'infections des muqueuses génitales, anales et oculaires et parfois de dissémination systémique.  
+- Sur le plan microbiologique, elle est intracellulaire facultative dans les cellules polymorphonucléaires observables au frottis (ex. présence de diplocoques à l'intérieur des neutrophiles).  
+
+En résumé : Neisseria gonorrhoeae, une bactérie Gram-négative en diplocoque, est l'agent étiologique de la blennorragie.",True

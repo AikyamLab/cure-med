@@ -1,0 +1,5 @@
+# Ignore Python cache directories (anywhere in the repo)
+__pycache__/
+
+# Ignore environment variable files 
+.env*
