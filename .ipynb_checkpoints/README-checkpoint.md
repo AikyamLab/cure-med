@@ -1,26 +1,47 @@
 <div align="center">
   <h1>CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning</h1>
 
-  <p><em>by</em></p>
+  <br/>
 
-  <p>
-    <strong>Eric Nartey Onyame</strong><sup>*</sup> (University of Virginia)
-    &nbsp;•&nbsp;
-    <strong>Akash Ghosh</strong><sup>*</sup> (IIT-Patna)
-    &nbsp;•&nbsp;
-    Subhadip Baidya (IIT-Patna)
-    &nbsp;•&nbsp;
-    Sriparna Saha (IIT-Patna)
-    &nbsp;•&nbsp;
-    Xiuying Chen (MBZUAI)
-    &nbsp;•&nbsp;
-    Chirag Agarwal (University of Virginia)
-  </p>
+  <table>
+    <tr>
+      <td align="center" style="padding: 0 18px;">
+        <strong>Eric Onyame</strong><sup>*</sup><br/>
+        University of Virginia
+      </td>
+      <td align="center" style="padding: 0 18px;">
+        <strong>Akash Ghosh</strong><sup>*</sup><br/>
+        IIT-Patna
+      </td>
+      <td align="center" style="padding: 0 18px;">
+        <strong>Subhadip Baidya</strong><br/>
+        IIT-Patna
+      </td>
+      <td align="center" style="padding: 0 18px;">
+        <strong>Sriparna Saha</strong><br/>
+        IIT-Patna
+      </td>
+      <td align="center" style="padding: 0 18px;">
+        <strong>Xiuying Chen</strong><br/>
+        MBZUAI
+      </td>
+    </tr>
+  </table>
 
-  <p>
-    <sup>*</sup>Equal contribution. <strong>Corresponding authors:</strong> Eric Nartey Onyame, Akash Ghosh
-  </p>
+  <br/>
+
+  <div>
+    <strong>Chirag Agarwal</strong><br/>
+    University of Virginia
+  </div>
+
+  <br/>
+
+  <div>
+    <sup>*</sup>Equal contribution. <strong>Corresponding authors:</strong> Eric Onyame, Akash Ghosh
+  </div>
 </div>
+
 
 This repository contains the code and dataset for <strong>CURE-Med</strong>, a framework for improving multilingual medical reasoning in large language models (LLMs). It includes baseline inference, curriculum-informed reinforcement learning, and supervised fine-tuning across 13 languages, including under-represented languages such as Amharic, Yoruba, and Swahili.
 
