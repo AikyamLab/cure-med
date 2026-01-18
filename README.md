@@ -45,36 +45,47 @@ This repository hosts the codebase and dataset for <strong>CURE-Med</strong>, a 
 Large language models (LLMs) perform strongly on monolingual math and commonsense reasoning, but they remain unreliable for multilingual medical reasoning—limiting safe use in real-world, multilingual healthcare settings. To address this, we introduce <strong>CUREMED-BENCH</strong>, a high-quality multilingual medical reasoning benchmark of open-ended questions with a single verifiable answer, spanning 13 languages, including under-represented languages such as Amharic, Yoruba, and Swahili. Building on this benchmark, we propose <strong>CURE-MED</strong>, a curriculum-informed reinforcement learning framework that combines code-switching-aware supervised fine-tuning with Group Relative Policy Optimization to improve both logical correctness and language stability. Across 13 languages, CURE-MED consistently outperforms strong baselines and scales effectively, reaching 85.21% language consistency and 54.35% logical correctness at 7B parameters, and 94.96% language consistency and 70.04% logical correctness at 32B parameters. Overall, our results move toward more reliable and equitable multilingual medical reasoning with LLMs.
 
 
-## Key Figures
+## Key Figure
 
 <p align="center">
   <img src="figures/cure_med.png" alt="CURE-MED pipeline overview" width="900">
   <br/>
-  <em><strong>Figure 1.</strong> The CURE-MED pipeline for multilingual medical reasoning: (A) curated clinically validated multilingual data enables cross-lingual reasoning, (B) supervised fine-tuning on code-switched reasoning traces, and (C) GRPO-guided curriculum RL trained progressively from high- to mid- to low-resource languages for improved correctness and language consistency.</em>
+  <em><strong>Figure 1.</strong> CURE-MED pipeline: (A) clinically validated multilingual data curation (e.g., MedlinePlus), (B) code-switching-aware supervised fine-tuning of a Qwen2.5-Instruct backbone, and (C) GRPO-guided curriculum RL from high- to mid- to low-resource languages to improve logical correctness and language consistency.</em>
 </p>
 
 <p align="center">
-  <img src="figures/bubble_plot.png" width="750"><br/>
-  <em><strong>Figure 2.</strong> Trade-off between language consistency and logical accuracy across models and scales.</em>
+  <sub>High-resolution PDF: <a href="figures/cure_med.pdf">Figure 1</a></sub>
 </p>
 
-<p align="center">
-  <img src="figures/scaling_plots_with_shaded_bands.png" width="750"><br/>
-  <em><strong>Figure 3.</strong> Scaling trends on language consistency (left) and logical accuracy (right).</em>
-</p>
+<br/>
 
+For full technical details and experiments, please refer to the paper (arXiv link coming soon) and the project website (coming soon).
 
-
-
-
-
-
-For full details, see the paper (to be added).
-
-## Citation
-If you find this work useful, please cite: (to be added)
-
+---
 
 ## Dataset
-- **CUREMED-BENCH**: Included in `data.zip`. This dataset features open-ended medical reasoning queries with a single verifiable answer across 13 languages. Unzip it for use in training and evaluation scripts.
+
+- **CUREMED-BENCH**: Provided in `data.zip`. The dataset contains open-ended medical reasoning questions with a single verifiable answer across **13 languages**.  
+  Unzip `data.zip` before running training or evaluation.
+
+- **Hugging Face**: CUREMED-BENCH is also available on Hugging Face:  
+  https://huggingface.co/datasets/Aikyam-Lab/CUREMED-BENCH
+
+---
+
+## Repository Structure
+
+- `baseline_inference/` — Baseline inference scripts for evaluation.
+- `SFT/` — Code-switching-aware supervised fine-tuning (SFT) training pipeline.
+- `SFT_Inference/` — Inference and evaluation for SFT checkpoints.
+- `Curriculum_RFT/` — Curriculum-informed reinforcement learning / RFT training (GRPO-guided).
+- `RFT_Inference/` — Inference and evaluation for RFT checkpoints.
+- `figures/` — Figures used in the README and paper.
+- `README.md` — Project documentation.
+- `data.zip` — Packaged dataset release for local use.
+
+
+
+<!-- ## Citation
+If you find this work useful, please cite: (to be added) -->
 

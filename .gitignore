@@ -3,3 +3,4 @@ __pycache__/
 
 # Ignore environment variable files 
 .env*
+.ipynb_checkpoints/
