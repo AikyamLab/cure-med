@@ -1,5 +1,7 @@
-# CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning
-
+<!-- # CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning -->
+<div align="center">
+  <h1># CURE-Med:Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning</h1>
+</div>
 This repository contains the code and dataset for the CURE-Med framework, focusing on improving multilingual medical reasoning in large language models (LLMs). It includes implementations for baseline inference, curriculum-informed reinforcement learning, and supervised fine-tuning, supporting 13 languages including underrepresented ones like Amharic, Yoruba, and Swahili.
 
 ## Authors
