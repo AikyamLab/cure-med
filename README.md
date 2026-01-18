@@ -37,11 +37,50 @@
 
 <br/>
 
-This repository contains the code and dataset for <strong>CURE-Med</strong>, a framework for improving multilingual medical reasoning in large language models (LLMs). It includes baseline inference, curriculum-informed reinforcement learning, and supervised fine-tuning across 13 languages, including under-represented languages such as Amharic, Yoruba, and Swahili.
+This repository hosts the codebase and dataset for <strong>CURE-Med</strong>, a framework for improving multilingual medical reasoning in large language models (LLMs). Below, we provide an overview of the project along with key training and implementation details.
+
 
 
 ## Overview
-While large language models (LLMs) have shown to perform well on monolingual mathematical and commonsense reasoning, they remain unreliable for multilingual medical reasoning applications, hindering their deployment in multilingual healthcare settings. We address this by first introducing CUREMED-BENCH, a high-quality multilingual medical reasoning dataset with open-ended reasoning queries with a single verifiable answer, spanning thirteen languages, including underrepresented languages such as Amharic, Yoruba, and Swahili. Building on this dataset, we propose CURE-MED, a curriculum-informed reinforcement learning framework that integrates code-switching-aware supervised fine-tuning and Group Relative Policy Optimization to jointly improve logical correctness and language stability. Across thirteen languages, our approach consistently outperforms strong baselines and scales effectively, achieving 85.21% language consistency and 54.35% logical correctness at 7B parameters, and 94.96% language consistency and 70.04% logical correctness at 32B parameters. These results support reliable and equitable multilingual medical reasoning in LLMs. 
+Large language models (LLMs) perform strongly on monolingual math and commonsense reasoning, but they remain unreliable for multilingual medical reasoning—limiting safe use in real-world, multilingual healthcare settings. To address this, we introduce <strong>CUREMED-BENCH</strong>, a high-quality multilingual medical reasoning benchmark of open-ended questions with a single verifiable answer, spanning 13 languages, including under-represented languages such as Amharic, Yoruba, and Swahili. Building on this benchmark, we propose <strong>CURE-MED</strong>, a curriculum-informed reinforcement learning framework that combines code-switching-aware supervised fine-tuning with Group Relative Policy Optimization to improve both logical correctness and language stability. Across 13 languages, CURE-MED consistently outperforms strong baselines and scales effectively, reaching 85.21% language consistency and 54.35% logical correctness at 7B parameters, and 94.96% language consistency and 70.04% logical correctness at 32B parameters. Overall, our results move toward more reliable and equitable multilingual medical reasoning with LLMs.
+
+
+## Key Figures
+
+<p align="center">
+  <img src="figures/cure_med.png" alt="CURE-MED pipeline overview" width="900">
+  <br/>
+  <em><strong>Figure 1.</strong> The CURE-MED pipeline for multilingual medical reasoning: (A) curated clinically validated multilingual data enables cross-lingual reasoning, (B) supervised fine-tuning on code-switched reasoning traces, and (C) GRPO-guided curriculum RL trained progressively from high- to mid- to low-resource languages for improved correctness and language consistency.</em>
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="figures/bubble_plot.png" alt="Trade-off between language consistency and logical accuracy" width="430">
+      <br/>
+      <em><strong>Figure 2.</strong> Trade-off between language consistency and logical accuracy across models and scales. CURE-MED shifts performance toward the upper-right.</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="figures/scaling_plots_with_shaded_bands.png" alt="Scaling trends for CURE-MED vs base models" width="430">
+      <br/>
+      <em><strong>Figure 3.</strong> Scaling trends on language consistency (left) and logical accuracy (right): CURE-MED consistently improves over the base model, with gains increasing at larger scales.</em>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <sub>
+    High-resolution PDFs:
+    <a href="figures/cure_med.pdf">Figure 1</a> ·
+    <a href="figures/bubble_plot.pdf">Figure 2</a> ·
+    <a href="figures/scaling_plots_with_shaded_bands.pdf">Figure 3</a>
+  </sub>
+</p>
+
+
+
+
+
 
 For full details, see the paper (to be added).
 
