@@ -83,6 +83,7 @@ For full technical details and experiments, please refer to the paper (arXiv lin
 - `figures/` — Figures used in the README and paper.
 - `README.md` — Project documentation.
 - `data.zip` — Packaged dataset release for local use.
+- - `dataset` — Codeswitched dataset release for local use.
 
 ## Supervised Fine-Tuning (SFT)
 
@@ -123,10 +124,61 @@ Edit `SFT/code_switch_batch_script.sh`:
 - **match Accelerate processes to GPU count** (e.g., `--num_processes <N>`)
 
 Submit:
-```bash
 sbatch SFT/code_switch_batch_script.sh
 
+## Reinforcement Fine-Tuning (RFT / GRPO Curriculum)
 
-# <!-- ## Citation
-# If you find this work useful, please cite: (to be added) -->
+RFT is implemented in `Curriculum_RFT/` as a **3-stage GRPO curriculum** over staged datasets:
+- Datasets: `Curriculum_RFT/staged/{high,medium,low}/` (each contains `*.jsonl`)
+- Training code: `Curriculum_RFT/Training_Stages/{Stage_one_training,Stage_two_training,Stage_three_training}/`
+
+### Environment
+We ran RFT with **Python 3.11.13** . All stages use **full fine-tuning**.
+
+### Dataset format
+Each JSONL example must include: `question`, `reasoning`, `answer`, `language`.
+
+### Curriculum order (sequential checkpoints)
+Run stages in this order (each stage initializes from the previous checkpoint):
+1. **Stage 1 (High-resource)**: start from the **SFT checkpoint** + `staged/high/`
+2. **Stage 2 (Medium-resource)**: start from **Stage 1 checkpoint** + `staged/medium/`
+3. **Stage 3 (Low-resource)**: start from **Stage 2 checkpoint** + `staged/low/`
+
+### Run RFT (Slurm)
+Each stage provides a Slurm launcher script inside its stage folder. Update the script (or args) to point to the correct starting checkpoint and dataset path:
+
+**Stage 1: High-resource (from SFT checkpoint)**
+
+cd Curriculum_RFT/Training_Stages/Stage_one_training
+# set:
+#   --dataset_path Curriculum_RFT/staged/high
+#   --sft_model_path /path/to/SFT_checkpoint
+sbatch curriculum_grpo_high.sh
+
+**Stage 2: Medium-resource (from Stage 1 checkpoint)**
+
+cd ../Stage_two_training
+# set:
+#   --dataset_path Curriculum_RFT/staged/medium
+#   --sft_model_path /path/to/STAGE1_checkpoint
+sbatch curriculum_grpo_medium.sh
+
+**Stage 3: Low-resource (from Stage 2 checkpoint)**
+
+cd ../Stage_three_training
+# set:
+#   --dataset_path Curriculum_RFT/staged/low
+#   --sft_model_path /path/to/STAGE2_checkpoint
+sbatch curriculum_grpo_low.sh
+
+Note: Ensure accelerate --num_processes matches the number of GPUs requested in Slurm (e.g., 4 GPUs -> --num_processes 4). Output checkpoints are saved to the --output_dir specified in each stage script.
+
+
+
+## Citation
+If you find this repository useful, please consider citing our paper. (Citation coming soon.)
+
+
+
+
 
