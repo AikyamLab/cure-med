@@ -83,7 +83,7 @@ For full technical details and experiments, please refer to the paper (arXiv lin
 - `figures/` — Figures used in the README and paper.
 - `README.md` — Project documentation.
 - `data.zip` — Packaged dataset release for local use.
-- `dataset/` — Codeswitched dataset release for local use.
+- `datasets/` — Codeswitched dataset release for local use.
 
 ## Supervised Fine-Tuning (SFT)
 
