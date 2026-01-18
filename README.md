@@ -84,8 +84,49 @@ For full technical details and experiments, please refer to the paper (arXiv lin
 - `README.md` — Project documentation.
 - `data.zip` — Packaged dataset release for local use.
 
+## Supervised Fine-Tuning (SFT)
+
+SFT code is in `SFT/`:
+- `code_switch_sft.py` — code-switching-aware SFT training script
+- `deepspeed_zero3.yaml` — DeepSpeed ZeRO-3 config
+- `code_switch_batch_script.sh` — Slurm batch script for launching SFT
+
+### Environment
+We ran SFT with **Python 3.11.13**. Ensure your environment includes:
+`torch`, `transformers`, `datasets`, `trl`, `accelerate`, `deepspeed`.
+
+### Data (SFT_data)
+Provide SFT training files as JSONL under a directory like:
+`/path/to/SFT_data/*.jsonl`
+
+Each example must contain: `question`, `reasoning`, `answer`, `language`.
+
+Set the dataset path in the batch script via:
+`--data_dir="/path/to/SFT_data"`.
+
+### Models & GPU Recommendations
+We used Qwen2.5-Instruct variants: **1.5B, 3B, 7B, 14B, 32B**.
+- **1.5B / ~4B**: recommended **4× A100**
+- **7B / 14B / 32B**: recommended **≥ 8× A100**
+
+### SFT Hyperparameters
+- Optimizer: AdamW (β1=0.9, β2=0.999)
+- LR: 1e-5 (cosine, warmup ratio 0.1), epochs: 3
+- Effective batch size: 32, max seq length: 4096
+- Precision: bf16, DeepSpeed ZeRO-3 + gradient checkpointing
+
+### Run (Slurm)
+Edit `SFT/code_switch_batch_script.sh`:
+- set `base_model="Qwen/Qwen2.5-*-Instruct"`
+- set `--data_dir="/path/to/SFT_data"`
+- request GPUs via `#SBATCH --gres=gpu:a100:<N>`
+- **match Accelerate processes to GPU count** (e.g., `--num_processes <N>`)
+
+Submit:
+```bash
+sbatch SFT/code_switch_batch_script.sh
 
 
-<!-- ## Citation
-If you find this work useful, please cite: (to be added) -->
+# <!-- ## Citation
+# If you find this work useful, please cite: (to be added) -->
 
