@@ -1,19 +1,28 @@
-<!-- # CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning -->
 <div align="center">
-  <h1># CURE-Med:Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning</h1>
+  <h1>CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning</h1>
+
+  <p><em>by</em></p>
+
+  <p>
+    <strong>Eric Nartey Onyame</strong><sup>*</sup> (University of Virginia)
+    &nbsp;•&nbsp;
+    <strong>Akash Ghosh</strong><sup>*</sup> (IIT-Patna)
+    &nbsp;•&nbsp;
+    Subhadip Baidya (IIT-Patna)
+    &nbsp;•&nbsp;
+    Sriparna Saha (IIT-Patna)
+    &nbsp;•&nbsp;
+    Xiuying Chen (MBZUAI)
+    &nbsp;•&nbsp;
+    Chirag Agarwal (University of Virginia)
+  </p>
+
+  <p>
+    <sup>*</sup>Equal contribution. <strong>Corresponding authors:</strong> Eric Nartey Onyame, Akash Ghosh
+  </p>
 </div>
-This repository contains the code and dataset for the CURE-Med framework, focusing on improving multilingual medical reasoning in large language models (LLMs). It includes implementations for baseline inference, curriculum-informed reinforcement learning, and supervised fine-tuning, supporting 13 languages including underrepresented ones like Amharic, Yoruba, and Swahili.
 
-## Authors
-<!-- <center> Eric Onyame\*, Akash Ghosh\*, Subhadip Baidya, Sriparna Saha, Xiuying Chen, Chirag Agarwal </center>  -->
-- Eric Onyame\* (University of Virginia)
-- Akash Ghosh\* (IIT-Patna)
-- Subhadip Baidya (IIT-Patna)
-- Sriparna Saha (IIT-Patna)
-- Xiuying Chen (MBZUAI)
-- Chirag Agarwal (University of Virginia)
-
-\*Equal Contribution. Correspondence Authors: Eric Onyame and Akash Ghosh
+This repository contains the code and dataset for <strong>CURE-Med</strong>, a framework for improving multilingual medical reasoning in large language models (LLMs). It includes baseline inference, curriculum-informed reinforcement learning, and supervised fine-tuning across 13 languages, including under-represented languages such as Amharic, Yoruba, and Swahili.
 
 ## Overview
 While large language models (LLMs) have shown to perform well on monolingual mathematical and commonsense reasoning, they remain unreliable for multilingual medical reasoning applications, hindering their deployment in multilingual healthcare settings. We address this by first introducing CUREMED-BENCH, a high-quality multilingual medical reasoning dataset with open-ended reasoning queries with a single verifiable answer, spanning thirteen languages, including underrepresented languages such as Amharic, Yoruba, and Swahili. Building on this dataset, we propose CURE-MED, a curriculum-informed reinforcement learning framework that integrates code-switching-aware supervised fine-tuning and Group Relative Policy Optimization to jointly improve logical correctness and language stability. Across thirteen languages, our approach consistently outperforms strong baselines and scales effectively, achieving 85.21% language consistency and 54.35% logical correctness at 7B parameters, and 94.96% language consistency and 70.04% logical correctness at 32B parameters. These results support reliable and equitable multilingual medical reasoning in LLMs. 
