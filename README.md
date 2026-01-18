@@ -53,29 +53,16 @@ Large language models (LLMs) perform strongly on monolingual math and commonsens
   <em><strong>Figure 1.</strong> The CURE-MED pipeline for multilingual medical reasoning: (A) curated clinically validated multilingual data enables cross-lingual reasoning, (B) supervised fine-tuning on code-switched reasoning traces, and (C) GRPO-guided curriculum RL trained progressively from high- to mid- to low-resource languages for improved correctness and language consistency.</em>
 </p>
 
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <img src="figures/bubble_plot.png" alt="Trade-off between language consistency and logical accuracy" width="430">
-      <br/>
-      <em><strong>Figure 2.</strong> Trade-off between language consistency and logical accuracy across models and scales. CURE-MED shifts performance toward the upper-right.</em>
-    </td>
-    <td align="center" width="50%">
-      <img src="figures/scaling_plots_with_shaded_bands.png" alt="Scaling trends for CURE-MED vs base models" width="430">
-      <br/>
-      <em><strong>Figure 3.</strong> Scaling trends on language consistency (left) and logical accuracy (right): CURE-MED consistently improves over the base model, with gains increasing at larger scales.</em>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="figures/bubble_plot.png" width="750"><br/>
+  <em><strong>Figure 2.</strong> Trade-off between language consistency and logical accuracy across models and scales.</em>
+</p>
 
 <p align="center">
-  <sub>
-    High-resolution PDFs:
-    <a href="figures/cure_med.pdf">Figure 1</a> ·
-    <a href="figures/bubble_plot.pdf">Figure 2</a> ·
-    <a href="figures/scaling_plots_with_shaded_bands.pdf">Figure 3</a>
-  </sub>
+  <img src="figures/scaling_plots_with_shaded_bands.png" width="750"><br/>
+  <em><strong>Figure 3.</strong> Scaling trends on language consistency (left) and logical accuracy (right).</em>
 </p>
+
 
 
 
