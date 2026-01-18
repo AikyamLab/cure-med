@@ -145,9 +145,9 @@ Run stages in this order (each stage initializes from the previous checkpoint):
 3. **Stage 3 (Low-resource)**: start from **Stage 2 checkpoint** + `staged/low/`
 
 ### Run RFT (Slurm)
-Each stage provides a Slurm launcher script inside its stage folder. Update the script (or args) to point to the correct starting checkpoint and dataset path:
+Each stage provides a Slurm launcher script inside its stage folder. Update the script (or args) to point to the correct starting checkpoint and dataset path. 
 
-**Stage 1: High-resource (start from SFT checkpoint)**
+<!-- **Stage 1: High-resource (start from SFT checkpoint)**
 
 cd Curriculum_RFT/Training_Stages/Stage_one_training
 Update in the script (or pass as args):
@@ -171,7 +171,7 @@ cd ../Stage_three_training
 Update in the script (or pass as args):
   --dataset_path Curriculum_RFT/staged/low
   --sft_model_path /path/to/STAGE2_checkpoint
-sbatch curriculum_grpo_low.sh
+sbatch curriculum_grpo_low.sh -->
 
 
 <br/>
