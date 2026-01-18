@@ -83,7 +83,7 @@ For full technical details and experiments, please refer to the paper (arXiv lin
 - `figures/` — Figures used in the README and paper.
 - `README.md` — Project documentation.
 - `data.zip` — Packaged dataset release for local use.
-- - `dataset` — Codeswitched dataset release for local use.
+- `dataset/` — Codeswitched dataset release for local use.
 
 ## Supervised Fine-Tuning (SFT)
 
@@ -171,8 +171,12 @@ cd ../Stage_three_training
 #   --sft_model_path /path/to/STAGE2_checkpoint
 sbatch curriculum_grpo_low.sh
 
-Note: Ensure accelerate --num_processes matches the number of GPUs requested in Slurm (e.g., 4 GPUs -> --num_processes 4). Output checkpoints are saved to the --output_dir specified in each stage script.
+<br/>
 
+Note: Ensure accelerate --num_processes matches the number of GPUs requested in Slurm (e.g., 4 GPUs -> --num_processes 4). Output checkpoints are saved to the --output_dir specified in each stage script.
+<br/>
+
+**Inference:** The `SFT_Inference/` and `RFT_Inference/` folders contain scripts for running inference with the trained SFT and RFT checkpoints. Please update the relevant model/checkpoint and data paths in the scripts before running.
 
 
 ## Citation
