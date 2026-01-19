@@ -1,38 +1,5 @@
 <div align="center">
   <h1>CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning</h1>
-
-  <p><em>by</em></p>
-
-  <table>
-    <tr>
-      <td align="center" style="padding: 0 16px;">
-        <strong>Eric Onyame</strong><sup>*</sup><br/>
-        University of Virginia
-      </td>
-      <td align="center" style="padding: 0 16px;">
-        <strong>Akash Ghosh</strong><sup>*</sup><br/>
-        IIT-Patna
-      </td>
-      <td align="center" style="padding: 0 16px;">
-        <strong>Subhadip Baidya</strong><br/>
-        IIT-Patna
-      </td>
-      <td align="center" style="padding: 0 16px;">
-        <strong>Sriparna Saha</strong><br/>
-        IIT-Patna
-      </td>
-      <td align="center" style="padding: 0 16px;">
-        <strong>Xiuying Chen</strong><br/>
-        MBZUAI
-      </td>
-      <td align="center" style="padding: 0 16px;">
-        <strong>Chirag Agarwal</strong><br/>
-        University of Virginia
-      </td>
-    </tr>
-  </table>
-
-  <p><sup>*</sup>Equal contribution. <strong>Corresponding authors:</strong> Eric Onyame, Akash Ghosh</p>
 </div>
 
 <br/>
