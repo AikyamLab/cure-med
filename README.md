@@ -1,6 +1,54 @@
 <div align="center">
   <h1>CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning</h1>
+
+  <!-- Link buttons (adds the "neat" look like your examples) -->
+  <p>
+    <a href="https://cure-med.github.io" target="_blank">
+      <img alt="Website" src="https://img.shields.io/badge/Website-Project%20Page-blue">
+    </a>
+    <a href="https://arxiv.org/abs/2601.13262" target="_blank">
+      <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2601.13262-B31B1B">
+    </a>
+    <a href="https://huggingface.co/datasets/Aikyam-Lab/CUREMED-BENCH" target="_blank">
+      <img alt="Hugging Face Dataset" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-FFD21E">
+    </a>
+  </p>
+
+  <p><em>by</em></p>
+
+  <table>
+    <tr>
+      <td align="center" style="padding: 0 16px;">
+        <strong>Eric Onyame</strong><sup>*</sup><br/>
+        University of Virginia
+      </td>
+      <td align="center" style="padding: 0 16px;">
+        <strong>Akash Ghosh</strong><sup>*</sup><br/>
+        IIT-Patna
+      </td>
+      <td align="center" style="padding: 0 16px;">
+        <strong>Subhadip Baidya</strong><br/>
+        IIT-Patna
+      </td>
+      <td align="center" style="padding: 0 16px;">
+        <strong>Sriparna Saha</strong><br/>
+        IIT-Patna
+      </td>
+      <td align="center" style="padding: 0 16px;">
+        <strong>Xiuying Chen</strong><br/>
+        MBZUAI
+      </td>
+      <td align="center" style="padding: 0 16px;">
+        <strong>Chirag Agarwal</strong><br/>
+        University of Virginia
+      </td>
+    </tr>
+  </table>
+
+  <p><sup>*</sup>Equal contribution. <strong>Corresponding authors:</strong> Eric Onyame, Akash Ghosh</p>
 </div>
+
+
 
 <br/>
 
@@ -26,7 +74,8 @@ Large language models (LLMs) perform strongly on monolingual math and commonsens
 
 <br/>
 
-For full technical details and experiments, please refer to the paper (arXiv link coming soon) and the project website (coming soon).
+For full technical details and experiments, see the **[paper on arXiv](https://arxiv.org/abs/2601.13262)** and the **[project website](https://cure-med.github.io)**.
+
 
 ---
 
@@ -114,31 +163,6 @@ Run stages in this order (each stage initializes from the previous checkpoint):
 ### Run RFT (Slurm)
 Each stage provides a Slurm launcher script inside its stage folder. Update the script (or args) to point to the correct starting checkpoint and dataset path. 
 
-<!-- **Stage 1: High-resource (start from SFT checkpoint)**
-
-cd Curriculum_RFT/Training_Stages/Stage_one_training
-Update in the script (or pass as args):
-  --dataset_path Curriculum_RFT/staged/high
-  --sft_model_path /path/to/SFT_checkpoint
-sbatch curriculum_grpo_high.sh
-
-
-**Stage 2: Medium-resource (start from Stage 1 checkpoint)**
-
-cd ../Stage_two_training
-Update in the script (or pass as args):
-  --dataset_path Curriculum_RFT/staged/medium
-  --sft_model_path /path/to/STAGE1_checkpoint
-sbatch curriculum_grpo_medium.sh
-
-
-**Stage 3: Low-resource (start from Stage 2 checkpoint)**
-
-cd ../Stage_three_training
-Update in the script (or pass as args):
-  --dataset_path Curriculum_RFT/staged/low
-  --sft_model_path /path/to/STAGE2_checkpoint
-sbatch curriculum_grpo_low.sh -->
 
 
 <br/>
