@@ -173,8 +173,21 @@ Note: Ensure accelerate --num_processes matches the number of GPUs requested in 
 **Inference:** The `SFT_Inference/` and `RFT_Inference/` folders contain scripts for running inference with the trained SFT and RFT checkpoints. Please update the relevant model/checkpoint and data paths in the scripts before running.
 
 
-## Citation
-If you find this repository useful, please consider citing our paper. (Citation coming soon.)
+
+# Citation for CURE-Med Paper
+
+Below is the BibTeX entry for the paper:
+
+```bibtex
+@misc{onyame2026curemedcurriculuminformedreinforcementlearning,
+      title={CURE-Med: Curriculum-Informed Reinforcement Learning for Multilingual Medical Reasoning},
+      author={Eric Onyame and Akash Ghosh and Subhadip Baidya and Sriparna Saha and Xiuying Chen and Chirag Agarwal},
+      year={2026},
+      eprint={2601.13262},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2601.13262},
+}
 
 
 
